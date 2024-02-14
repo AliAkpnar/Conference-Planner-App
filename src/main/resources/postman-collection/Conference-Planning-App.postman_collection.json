@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "f6788594-60ce-4a3a-aa0c-3a513e5b8d33",
+		"name": "Conference-Planning-App",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12414980"
+	},
+	"item": [
+		{
+			"name": "localhost:8081/conference-app/api/v1/conferences/planning",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n    {\n        \"title\": \"Architecting Your Codebase\",\n        \"duration\": 60\n    },\n    {\n        \"title\": \"Overdoing it in Python\",\n        \"duration\": 45\n    },\n    {\n        \"title\": \"Flavors of Concurrency in Java\",\n        \"duration\": 30\n    },\n    {\n        \"title\": \"Ruby Errors from Mismatched Gem Versions\",\n        \"duration\": 45\n    },\n    {\n        \"title\": \"JUnit 5 - Shaping the Future of Testing on the JVM\",\n        \"duration\": 45\n    },\n    {\n        \"title\": \"Cloud Native Java\",\n        \"duration\": 5\n    },\n    {\n        \"title\": \"Communicating Over Distance\",\n        \"duration\": 60\n    },\n    {\n        \"title\": \"AWS Technical Essentials\",\n        \"duration\": 45\n    },\n    {\n        \"title\": \"Continuous Delivery\",\n        \"duration\": 30\n    },\n    {\n        \"title\": \"Monitoring Reactive Applications\",\n        \"duration\": 30\n    },\n    {\n        \"title\": \"Pair Programming vs Noise\",\n        \"duration\": 45\n    },\n    {\n        \"title\": \"Rails Magic\",\n        \"duration\": 60\n    },\n    {\n        \"title\": \"Microservices 'Just Right'\",\n        \"duration\": 60\n    },\n    {\n        \"title\": \"Clojure Ate Scala (on my project)\",\n        \"duration\": 45\n    },\n    {\n        \"title\": \"Perfect Scalability\",\n        \"duration\": 30\n    },\n    {\n        \"title\": \"Apache Spark\",\n        \"duration\": 30\n    },\n    {\n        \"title\": \"Async Testing on JVM\",\n        \"duration\": 60\n    },\n    {\n        \"title\": \"A World Without HackerNews\",\n        \"duration\": 30\n    },\n    {\n        \"title\": \"User Interface CSS in Apps\",\n        \"duration\": 30\n    },\n    {\n        \"title\": \"Apache Kafka\",\n        \"duration\": 48\n    },\n    {\n        \"title\": \"LIGHTNING TALK\",\n        \"duration\": 4\n    }\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8081/conference-app/api/v1/conferences/planning",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"conference-app",
+						"api",
+						"v1",
+						"conferences",
+						"planning"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8081/conference-app/api/v1/conferences",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/conference-app/api/v1/conferences",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"conference-app",
+						"api",
+						"v1",
+						"conferences"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
